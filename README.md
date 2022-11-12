@@ -11,7 +11,7 @@ Après l'avoir télécharger double cliquer sur le script
 
 ### Terminal windows
 Après l'avoir télécharger dans le repertoire où se trouve le script écrivez dans la barre en haut **cmd** ou **powershell**. Dans le terminal écrivez `./VerifJavaVersion.bat`
-![](./img/powershell.png)
+![Illustration pour ouvrir un cmd ou un powershell](./img/powershell.png)
 
 
 ## Modification du script
