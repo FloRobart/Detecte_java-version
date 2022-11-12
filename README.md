@@ -1,15 +1,19 @@
 # Script permettant de détecter la version de java
-Permet de savoir si **Java** est installée sur l'ordinateur sur lequel ce script est lancé.
-Si Java est installée, mais n'a pas la bonne version le script affiche une boite de dialogue permettant de télécharger automatiquement Java jdk 16.
+Permet de savoir si **Java** est installé sur l'ordinateur sur lequel ce script est lancé.
+Si Java est installé, mais n'a pas la bonne version le script affiche une boite de dialogue permettant de télécharger automatiquement Java jdk 16.
+
+1. [Lancement du scrip][1]
+1.1. [Interface Windows][11]
+1.2. [Terminal Windows][12]
 
 
-## Lancement du scrip
+## [1] Lancement du scrip
 Pour lancer le script, il existe deux solutions, la première via l'interface Windows et la deuxième via un terminal. Il n'y a aucune réelle différence entre les deux méthodes si ce n'est que c'est plus rapide de passer par l'interface Windows.
 
-### Interface windows
+### [11] Interface Windows
 Après l'avoir téléchargé double-cliquer sur le script.
 
-### Terminal windows
+### [12] Terminal Windows
 Après l'avoir téléchargé dans le répertoire où se trouve le script écrivez dans la barre en haut **cmd** ou **powershell**. Dans le terminal, écrivez `./VerifJavaVersion.bat`
 
 Illustration pour ouvrir un cmd ou un powershell
@@ -34,4 +38,4 @@ Extrait de la ligne 33 :
 start https://www.techspot.com/downloads/downloadnow/7407/?evp=bb667956a140a1a0a56260d7df5d40bf^&file=9975
 ```
 
-**<font size="24">◬ Attention</font>** même dans une URL les caractères spéciaux doivent échapper avec le caractère d'échappement approprié !
+**◬ Attention** même dans une URL les caractères spéciaux doivent échapper avec le caractère d'échappement approprié !
