@@ -34,4 +34,4 @@ Extrait de la ligne 33 :
 start https://www.techspot.com/downloads/downloadnow/7407/?evp=bb667956a140a1a0a56260d7df5d40bf^&file=9975
 ```
 
-**Attention** même dans une URL les caractères spéciaux doivent échapper avec le caractère d'échappement approprié !
+**Attention**[color=#26B260] même dans une URL les caractères spéciaux doivent échapper avec le caractère d'échappement approprié !
