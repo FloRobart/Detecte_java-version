@@ -2,20 +2,21 @@
 Permet de savoir si **Java** est installé sur l'ordinateur sur lequel ce script est lancé.
 Si Java est installé, mais n'a pas la bonne version le script affiche une boite de dialogue permettant de télécharger automatiquement Java jdk 16.
 
-1. [Lancement du scrip][1]
+1. Lancement du script
+    1.1. Interface Windows
+    1.2. Terminal Windows
+2. Modification du script
+    2.1. Changer les versions valides
+    2.2. Changer le lien de téléchargement
+ 
 
-1.1. [Interface Windows][11]
-
-1.2. [Terminal Windows][12]
-
-
-[1] ## Lancement du scrip
+## Lancement du scrip
 Pour lancer le script, il existe deux solutions, la première via l'interface Windows et la deuxième via un terminal. Il n'y a aucune réelle différence entre les deux méthodes si ce n'est que c'est plus rapide de passer par l'interface Windows.
 
-[11] ### Interface Windows
+### Interface Windows
 Après l'avoir téléchargé double-cliquer sur le script.
 
-[12] Terminal Windows
+### Terminal Windows
 Après l'avoir téléchargé dans le répertoire où se trouve le script écrivez dans la barre en haut **cmd** ou **powershell**. Dans le terminal, écrivez `./VerifJavaVersion.bat`
 
 Illustration pour ouvrir un cmd ou un powershell
