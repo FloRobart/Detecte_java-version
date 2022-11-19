@@ -21,6 +21,7 @@ Après l'avoir téléchargé dans le répertoire où se trouve le script écrive
 
 Illustration pour ouvrir un cmd ou un powershell
 ![](./img/powershell.png "Illustration pour ouvrir un cmd ou un powershell")
+![](./img/cmd.png)
 
 
 ## 2. Modification du script
