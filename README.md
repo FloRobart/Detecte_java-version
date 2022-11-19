@@ -34,7 +34,7 @@ FOR /F "usebackq delims=" %%A IN (`java -version 2^>^&1`) DO echo %%A | findstr 
 
 
 ### Changer le lien de téléchargement
-Si vous voulez changer la version de Java installée en cas d'absence de Java ou de version de Java non-valide, il faut changer le lien après `start` à la ligne 33.
+Si vous voulez changer la version de Java installée en cas d'absence de Java ou de version de Java non-valide, il faut changer le lien après `start` à la ligne 38.
 
 Extrait de la ligne 38 :
 ```bat
