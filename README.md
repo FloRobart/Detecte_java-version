@@ -20,8 +20,7 @@ Après l'avoir téléchargé double-cliquer sur le script.
 Après l'avoir téléchargé dans le répertoire où se trouve le script écrivez dans la barre en haut **cmd** ou **powershell**. Si vous ouvrez powershell écrivez `./VerifJavaVersion.bat` dans ce dernier. Si vous ouvrez un cmd écrivez `VerifJavaVersion.bat`
 
 Illustration pour ouvrir un cmd ou un powershell
-![](./img/powershell.png "Illustration pour ouvrir un cmd ou un powershell")
-![](./img/cmd.png)
+![](./img/cmd.png "Illustration pour ouvrir un cmd ou un powershell")
 
 
 ## 2. Modification du script
@@ -35,7 +34,7 @@ FOR /F "usebackq delims=" %%A IN (`java -version 2^>^&1`) DO echo %%A | findstr 
 
 
 ### Changer le lien de téléchargement
-Si vous voulez changer la version de Java installée en cas d'absence de Java ou de version de Java non-valide, il faut changer le lien après `start` à la ligne 33.
+Si vous voulez changer la version de Java installée en cas d'absence de Java ou de version de Java non-valide, il faut changer le lien après `start` à la ligne 38.
 
 Extrait de la ligne 38 :
 ```bat
