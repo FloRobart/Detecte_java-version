@@ -17,7 +17,7 @@ Pour lancer le script, il existe deux solutions, la première via l'interface Wi
 Après l'avoir téléchargé double-cliquer sur le script.
 
 ### Terminal Windows
-Après l'avoir téléchargé dans le répertoire où se trouve le script écrivez dans la barre en haut **cmd** ou **powershell**. Dans le terminal, écrivez `./VerifJavaVersion.bat`
+Après l'avoir téléchargé dans le répertoire où se trouve le script écrivez dans la barre en haut **cmd** ou **powershell**. Si vous ouvrez powershell écrivez `./VerifJavaVersion.bat` dans ce dernier. Si vous ouvrez un cmd écrivez `VerifJavaVersion.bat`
 
 Illustration pour ouvrir un cmd ou un powershell
 ![](./img/powershell.png "Illustration pour ouvrir un cmd ou un powershell")
