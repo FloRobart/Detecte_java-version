@@ -3,7 +3,7 @@ Permet de savoir si **Java** est installé sur l'ordinateur sur lequel ce script
 Si Java est installé, mais n'a pas la bonne version le script affiche une boite de dialogue permettant de télécharger automatiquement Java jdk 16.
 
 1. Lancement du script
-    * Interface Windows
+    * Interface graphique Windows
     * Terminal Windows
 2. Modification du script
     * Changer les versions valides
@@ -13,14 +13,15 @@ Si Java est installé, mais n'a pas la bonne version le script affiche une boite
 ## 1. Lancement du scrip
 Pour lancer le script, il existe deux solutions, la première via l'interface Windows et la deuxième via un terminal. Il n'y a aucune réelle différence entre les deux méthodes si ce n'est que c'est plus rapide de passer par l'interface Windows.
 
-### Interface Windows
+### Interface graphique Windows
 Après l'avoir téléchargé double-cliquer sur le script.
 
 ### Terminal Windows
-Après l'avoir téléchargé dans le répertoire où se trouve le script écrivez dans la barre en haut **cmd** ou **powershell**. Dans le terminal, écrivez `./VerifJavaVersion.bat`
+Après l'avoir téléchargé dans le répertoire où se trouve le script écrivez dans la barre en haut **cmd** ou **powershell**. Si vous ouvrez powershell écrivez `./VerifJavaVersion.bat` dans ce dernier. Si vous ouvrez un cmd écrivez `VerifJavaVersion.bat`
 
 Illustration pour ouvrir un cmd ou un powershell
 ![](./img/powershell.png "Illustration pour ouvrir un cmd ou un powershell")
+![](./img/cmd.png)
 
 
 ## 2. Modification du script
@@ -36,9 +37,9 @@ FOR /F "usebackq delims=" %%A IN (`java -version 2^>^&1`) DO echo %%A | findstr 
 ### Changer le lien de téléchargement
 Si vous voulez changer la version de Java installée en cas d'absence de Java ou de version de Java non-valide, il faut changer le lien après `start` à la ligne 33.
 
-Extrait de la ligne 33 :
+Extrait de la ligne 38 :
 ```bat
-start https://www.techspot.com/downloads/downloadnow/7407/?evp=bb667956a140a1a0a56260d7df5d40bf^&file=9975
+echo start https://www.techspot.com/downloads/downloadnow/7407/?evp=bb667956a140a1a0a56260d7df5d40bf^^^&file=9975 >> installationJava16.bat
 ```
 
 **◬ Attention** même dans une URL les caractères spéciaux doivent échapper avec le caractère d'échappement approprié !
