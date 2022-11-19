@@ -1,0 +1,1 @@
+msgbox "votre texte", vbYesNo + vbExclamation, "titre"
