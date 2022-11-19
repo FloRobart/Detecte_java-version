@@ -13,7 +13,7 @@ Si Java est installé, mais n'a pas la bonne version le script affiche une boite
 ## 1. Lancement du scrip
 Pour lancer le script, il existe deux solutions, la première via l'interface Windows et la deuxième via un terminal. Il n'y a aucune réelle différence entre les deux méthodes si ce n'est que c'est plus rapide de passer par l'interface Windows.
 
-### Interface Windows
+### Interface graphique Windows
 Après l'avoir téléchargé double-cliquer sur le script.
 
 ### Terminal Windows
