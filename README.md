@@ -22,7 +22,7 @@ Après avoir téléchargé le script, ouvrez le gestionnaire de fichier dans le 
 Illustration pour ouvrir un cmd ou un powershell
 ![](./img/cmd.png "Illustration pour ouvrir un cmd ou un powershell")
 
-Si vous ouvrez powershell écrivez ./VerifJavaVersion.bat dans ce dernier. Si vous ouvrez un cmd écrivez VerifJavaVersion.bat
+Si vous ouvrez powershell écrivez `./VerifJavaVersion.bat` dans ce dernier. Si vous ouvrez un cmd écrivez VerifJavaVersion.bat
 
 ## 2. Modification du script
 ### Changer les versions valides
