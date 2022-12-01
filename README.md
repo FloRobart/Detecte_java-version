@@ -8,6 +8,7 @@ Si Java est installée, mais n'a pas la bonne version, le script affiche une boi
 2. Modification du script
     * Changer les versions valides
     * Changer le lien de téléchargement
+3. Version Linux
  
 
 ## 1. Lancement du script
@@ -43,3 +44,7 @@ echo start https://www.techspot.com/downloads/downloadnow/7407/?evp=bb667956a140
 ```
 
 **◬ Attention** même dans une URL les caractères spéciaux doivent échapper avec le caractère d'échappement approprié !
+
+
+## 3. Version Linux
+Si vous voulez la version **Shell** de ce programme, je vous invite à aller voir cette repos de Hugo `https://github.com/VicenteHugo/Verification-Version-Java-Linux` qui a traduit mon programme **Batch** en **Shell**.
