@@ -47,4 +47,4 @@ echo start https://www.techspot.com/downloads/downloadnow/7407/?evp=bb667956a140
 
 
 ## 3. Version Linux
-Si vous voulez la version **Shell** de ce programme, je vous invite à aller voir cette repos de Hugo `https://github.com/VicenteHugo/Verification-Version-Java-Linux` qui a traduit mon programme **Batch** en **Shell**.
+Si vous voulez la version **Shell** de ce programme, je vous invite à aller voir [la repos de mon collègue Hugo](https://github.com/VicenteHugo/Verification-Version-Java-Linux "Verification-Version-Java-Linux") qui a traduit mon programme **Batch** en **Shell**.
